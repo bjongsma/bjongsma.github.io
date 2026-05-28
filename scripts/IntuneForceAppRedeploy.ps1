@@ -1,4 +1,4 @@
-$appid = "9c51b065-a9cc-4c17-ae2a-87f3081278d2"
+$appid = "<obtain from url of app in Intune>"
 
 #1 Delete Keys in \SideCarPolicies\StatusServiceReports
 $statusServiceReportKeys = Get-ChildItem -Path "HKLM:\SOFTWARE\Microsoft\IntuneManagementExtension\SideCarPolicies\StatusServiceReports"
